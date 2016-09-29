@@ -1,0 +1,54 @@
+﻿@charset "UTF-8";
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+ 
+ article, aside, footer, header, main, nav, section {
+	display: block;
+ }
+ 
+ html, body, h1, h2, h3, ul, li, a, p,
+ article, aside, footer, header, main, nav, section {
+	 padding:0;
+	 margin: 0;
+ }
+  .banner{
+	 background-color: #0c98cf;
+	 color: white;
+	 padding: 10px 20px;
+ }
+ .banner img{
+	float:left;
+ }
+  body{
+	 width:960px;
+	 margin-left:auto;
+	 margin-right:auto;
+	 background-color: #A4D8ED;
+	 font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	 font-size: 15px;
+ }
+  nav{
+	 background-color: #064C68;
+	 padding: 5px;
+	 margin-top: 1px;
+ }
+  li a {
+	 color: white;
+ }
+  li {
+	 display:inline;
+	 margin-left: 15px;
+	 margin-right: 15px;
+	 font-size: 20px;
+	 font-weight:bold;
+	 border-width:1px;
+	 border-color:white;
+ }
+ li a:hover{
+	 color: #F9FE57;
+	 font-size:24px;
+ }
+ section{
+     background-color:white;
+ }
