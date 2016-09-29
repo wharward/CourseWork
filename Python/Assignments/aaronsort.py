@@ -9,4 +9,7 @@ def aaron_sort(value_list):
         cloned_list.remove(mn)
         sorted_list.append(mn)
         i = i - 1
-    return sorted_list
+    print (sorted_list)
+
+aaron_sort([67, 45, 2, 13, 1, 998])
+aaron_sort( [89, 23, 33, 45, 10, 12, 45, 45, 45])
