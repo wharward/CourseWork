@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Sticky Navbar</title>
+		<style>
+			 *{
+				 box-sizing: border-box;
+			 }
+			 body{
+				 margin:0;
+				 width:860px;
+				 padding-top:200px;
+				 width:100%;
+				 text-align:center;
+			 }
+			 header{
+				 background:#f07057;
+				 height:300px;
+				 padding-top:50px;
+				  
+			 }
+			 .main-nav{
+				 background:#fff;
+				 position:relative;
+				 height:50px;
+				 margin-bottom:-20px;
+				 z-index:150;
+				 box-shadow: 0 2px 3px rgba(0,0,0,.4);
+			 }
+			 a {
+				font-family:arial;
+				color: black;
+				padding:10px;
+				line-height:50px;
+
+			 }
+			 .main-nav-scrolled{
+				 position:fixed;
+				 top:0;
+				 width:100%;
+				 z-index:150;
+			 }
+			 header{
+				 position:fixed;
+				 top:0;
+				 width:100%;
+				 height:250px;
+			 }
+			 .main{
+				 background:#f2f2e8;
+				 position:relative;
+				 padding-left:50px;
+				 padding-right:50px;
+				 column-count: 2;
+				 z-index:100;
+				 padding-top:55px;
+			 }
+		</style>
+		
+		
+		<!--[if lt IE 9]>
+			<script>
+				document.createElement("article");
+				document.createElement("aside");
+				document.createElement("footer");
+				document.createElement("header");
+				document.createElement("main");
+				document.createElement("nav");
+				document.createElement("section");
+			</script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		<header>
+			<h1>This is a Sticky NavBar Demo!</h1>
+			<p>Creating one of these isn't so bad, really. Let's learn how with this sweet little demo!</p>
+		</header>
+		<nav class="main-nav">
+			<div>
+				<a href="#">Nav Link 1</a>
+				<a href="#">Nav Link 2</a>
+				<a href="#">Nav Link 3</a>
+				<a href="#">Nav Link 4</a>
+			</div>
+		</nav>
+		<div class="main">
+			<h2>Lorem ipsum dolor sit amet.</h2>
+			<p>Lorem ipsum dolor sit amet, quo ea quot accommodare. Vix ad verterem detraxit. Est ne nibh dolorum nominavi, te posse vocibus usu, ea sea efficiendi inciderint. Eu soluta principes mei. Movet solet ne est.</p>
+			
+			<p>Lorem ipsum dolor sit amet, quo ea quot accommodare. Vix ad verterem detraxit. Est ne nibh dolorum nominavi, te posse vocibus usu, ea sea efficiendi inciderint. Eu soluta principes mei. Movet solet ne est.</p>
+
+			<p>Sonet quaeque eos in, congue option placerat nam ut, vel illum inani ea. Purto libris civibus et mel, et noster epicurei vel. Populo ancillae eu sea, ea mei simul verterem mediocritatem. Graeco legimus maiorum cum ne. Ut virtute commune sit. Ei mei commodo tibique, cu homero lucilius nec.</p>
+
+			<p>Ex his dico alienum conceptam. Eum eu fierent voluptatum. Ei hinc iudico iisque duo, ius tale sententiae accommodare an. Congue platonem ullamcorper ut sed. Nec in reque regione, vis alia tollit pericula id.</p>
+
+			<p>Eu admodum suscipiantur usu. Vix nominavi reprehendunt no, impedit ullamcorper has et. Ex salutandi rationibus pri. Te vituperata scripserit nec. In mel atqui mollis, vel at movet quaeque definitiones, partiendo intellegebat te pro. Usu omnis veritus adversarium ea.</p>
+
+			<p>Mei decore regione no, sit no malorum quaeque sententiae, deleniti explicari pri ne. No alii oblique dissentiunt mel, mei persius oporteat te. Ea sed justo omnesque consetetur, reque denique omittantur per no. Falli praesent consetetur ius at, probo graece eam te, no qui offendit consequuntur.</p>
+		</div>
+		
+	<script type="text/javascript" src="jquery-3.1.1.min.js">
+	
+	</script>
+	<script type="text/javascript" src="sticky_nav.js"></script>
+		
+	</body>
